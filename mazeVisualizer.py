@@ -174,7 +174,7 @@ class Maze (object):
         return nodes
 
 
-maze = Maze(r"C:\Users\andy.powell\OneDrive - wiregrass.edu\Docs\Class Resources\python\Programs\Maze Output\maze.txt")
+maze = Maze(r"maze.txt")
 
 traversed = []
 
@@ -204,7 +204,7 @@ while True:
     nodes.extend(maze.next(curr, traversed))
     
     #im = maze.getMazeImage(curr.pos, traversed)
-    #im.save(r"C:\Users\andy.powell\OneDrive - wiregrass.edu\Pictures\Mazes\maze1\bfs\img" + str(count) + ".png")
+    #im.save(r"Mazes\maze1\bfs\img" + str(count) + ".png")
     
     count+=1
 
