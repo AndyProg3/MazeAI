@@ -7,7 +7,7 @@ A Python AI to solve mazes.
 
 If you wish to to make your own maze:
 1. Create a .txt file with the following attributes
-2. # - Wall
+2. \# - Wall
 3.  (space character) - Path
 4.  A - Start
 5.  B - Finish
